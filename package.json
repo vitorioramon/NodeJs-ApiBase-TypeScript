@@ -1,0 +1,26 @@
+{
+  "name": "api-server-ts",
+  "version": "0.0.1",
+  "description": "API Server (TS)",
+  "main": "app.js",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "jsonwebtoken": "^8.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/node": "^17.0.15",
+    "dotenv": "^16.0.0",
+    "ts-node": "^10.4.0"
+  },
+  "scripts": {
+    "start": "ts-node scripts/start.ts",
+    "dev": "nodemon -r dotenv/config scripts/start.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
